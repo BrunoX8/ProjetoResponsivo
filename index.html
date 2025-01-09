@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrela do Amanhã | Responsivo </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <aside>
+            <div class="aside-container">
+                <img src="/assets/icons/logo.svg" alt="logo da escola estrelas do amanhã">
+                <img src="/assets/icons/illustration.svg" alt="Ilustração de uma professora com crianças prestando atenção">
+            </div>
+        </aside>
+
+        <main>
+            <div class="main-container">
+                <div class="back">
+                    <img src="/assets/icons/left-arrow.svg" alt="seta de retorno">
+                    <span>Voltar</span>
+                </div>
+
+                <h1>Formulário de matrícula</h1>
+                <p>Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.</p>
+
+                <form method="post" enctype="multipart/form-data">
+                    <fieldset class="child-info">
+                        <legend>Informações da criança</legend>
+
+                        <div class="input-wrapper">
+                            <label for="fullname">Nome completo</label>
+                            <input id="fullname" name="fullname" type="text" placeholder="Qual o nome da criança?">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
