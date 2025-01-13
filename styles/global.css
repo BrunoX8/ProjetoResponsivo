@@ -30,52 +30,34 @@
     --violet: #C3B2E7;
     --pink: #F682A5;
 
-    --ff-poppins: 'Poppins', system-ui, sans-serif;
-    --fw-base: 400;
-    --fw-md: 500;
-    --fw-semibold: 600;
-
-    --fs-sm: 0.875rem;
-    --fs-base: 1rem;
-    --fs-lg: 1.25rem;
-    --fs-xl: 1.5rem;
-    --fs-2xl: 2rem;
+    --font-family: 'Poppins', system-ui, sans-serif;
+    --text: 400 0.875rem/1.5 var(--font-family);
+    --text-sm: 400 0.75rem/1.4 var(--font-family);
 }
 
 html {
-    font-family: var(--ff-poppins);
-    font-weight: var(--fw-base);
-    font-size: var(--fs-sm);
-    line-height: 1.6rem;
-    color: var(--text-secondary);
-
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
-h1, h2, h3 {
-    line-height: 1.2;
+body {
+    overflow: hidden;
+    font: var(--text);
+    color: var(--text-secondary);
+}
+
+h1,h2 {
     color: var(--text-primary);
-    font-weight: var(--fw-semibold);
-    letter-spacing: -0.04;
 }
 
-h1 {
-    font-size: var(--fs-2xl);
-}
-
-h2 {
-    font-size: var(--fs-xl);
-}
-
-h3 {
-    font-size: var(--fs-lg);
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (width >= 80em) {
     :root {
-        --fs-lg: 1.5rem;
-        --fs-xl: 1.75rem;
-        --fs-2xl: 2.25rem;
+        --text: 400 1rem/1.5 var(--font-family);
+        --text-sm: 400 0.875rem/1.4 var(--font-family);
     }
 }
