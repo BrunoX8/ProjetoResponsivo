@@ -2,9 +2,11 @@ button {
     all: unset;
     font-weight: 500;
     color: var(--text-highlight);
-    padding: .75rem 1.5rem;
+    padding: 1rem .75rem;
     border-radius: .5rem;
     cursor: pointer;
+    margin-bottom: 1rem; 
+    text-align: center;
 
     &.btn-primary {
         color: white;
@@ -23,5 +25,11 @@ button {
             color: var(--brand-dark);
             outline: .25rem solid var(--surface-secondary);
         }
+    }
+}
+
+@media (width >= 80em) {
+    button {
+        padding: .75rem 1rem;
     }
 }

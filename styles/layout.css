@@ -1,7 +1,3 @@
-#app {
-    
-}
-
 aside {
     background-color: var(--surface-secondary);
     padding: 2rem;
@@ -18,6 +14,10 @@ aside .container {
 }
 
 main {
+
+    overflow: auto;
+    padding: 2rem;
+
     & .back {
         display: flex;
         align-items: center;

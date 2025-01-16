@@ -32,6 +32,9 @@ select {
     opacity: .5;
 }
 
+.address .flex {
+    gap: 1.25rem;
+}
 
 input {
     &[disabled] {
@@ -93,9 +96,5 @@ input {
             top: 50%;
             transform: translateY(-50%);
         }
-    }
-
-    .address .flex {
-        gap: 1.25rem;
     }
 }
