@@ -11,7 +11,7 @@ CSS
 -Bibliotecas:
 <br>
 <br>
--Google fonts
+Google fonts: https://fonts.google.com/
 <br>
 <br>
 -Aplicativos utilizados:
