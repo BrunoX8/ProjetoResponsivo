@@ -2,6 +2,7 @@
 ![image](https://github.com/user-attachments/assets/b2d34316-146a-4824-8153-66a990303955)
 
 -Esse projeto foi desenvolvido com as seguintes tecnologias:
+<br>
 HTML
 <br>
 CSS
@@ -9,9 +10,11 @@ CSS
 <br>
 -Bibliotecas:
 <br>
-Google fonts
 <br>
-Aplicativos utilizados:
+-Google fonts
+<br>
+<br>
+-Aplicativos utilizados:
 <br>
 Visual Studio Code
 <br>
@@ -24,4 +27,5 @@ Estrela do Amanhã é um formulário matrícula para uma escola, utilizando conc
 <br>
 <br>
 LICENÇA
+<br>
 Esse projeto é uma réplica do projeto desenvolvido pela Rocketseat em seu curso de Fullstack.
